@@ -313,10 +313,13 @@ PASS: MATLAB and C weights match within tolerance.
 
 ---
 
+## RE-RUN IT
 
 If you want to re-rerun it, start here.. then go to previous RUN IT
 
 rm data/*.csv
+
+now /data should be empty...
 
 Then regenerate the MATLAB CSV files first:
 
