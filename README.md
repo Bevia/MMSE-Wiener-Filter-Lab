@@ -8,6 +8,10 @@ The goal is to connect theory with implementation:
 - Python: vector construction, signal generation, and plotting
 - C/C++: numerical calculation of the optimal Wiener weights
 
+## Visual Overview
+
+![MMSE Wiener Theory Step-by-Step Guide](assets/images/mmse_wiener_theory_guide.jpeg)
+
 ## Theory
 
 The adaptive filter output is:
