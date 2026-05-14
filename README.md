@@ -16,25 +16,46 @@ The goal is to connect theory with implementation:
 
 The adaptive filter output is:
 
+```math
 y(n) = W^T X(n)
+```
 
 The error is:
 
+```math
 e(n) = d(n) - y(n)
+```
 
 The MSE cost function is:
 
-xi = E[|e(n)|^2]
+```math
+\xi = E[|e(n)|^2]
+```
+
+For the real-valued Version 1 lab, this is equivalent to:
+
+```math
+\xi = E[e^2(n)]
+```
 
 The Wiener-Hopf solution is:
 
-Wopt = R^{-1}P
+```math
+W_{opt} = R^{-1}P
+```
 
 where:
 
+```math
 R = E[X(n)X^T(n)]
+```
+
+```math
 P = E[X(n)d(n)]
+```
 
 The minimum MSE is:
 
-xi_min = E[|d(n)|^2] - P^T Wopt
+```math
+\xi_{min} = E[|d(n)|^2] - P^T W_{opt}
+```
